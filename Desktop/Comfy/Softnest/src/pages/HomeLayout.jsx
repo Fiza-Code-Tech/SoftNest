@@ -7,9 +7,6 @@ const HomeLayout = () => {
     <>
       <Header />
       <NavBar />
-      <nav>
-        <span className="text-4xl text-primary">Softnest</span>
-      </nav>
       <section className="align-element py-20">
         <Outlet />
       </section>
