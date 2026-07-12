@@ -16,6 +16,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { ErrorElement } from './components/index'
 import { loader as landingLoader } from './pages/Landing'
 import { loader as SingleProductLoader } from './pages/SingleProduct'
+import { loader as ProductsLoader } from './pages/Products'
 //The home layout is shared by every other child page
 const router = createBrowserRouter([
   {
@@ -32,6 +33,8 @@ const router = createBrowserRouter([
       {
         path: 'products',
         element: <Products />,
+        loader: ProductsLoader,
+        errorElement: <ErrorElement />,
       },
       {
         path: 'products/:id',
