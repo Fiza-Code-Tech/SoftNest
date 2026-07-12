@@ -1,16 +1,95 @@
-# React + Vite
+# SoftNest (Comfy Store)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+SoftNest is a modern e-commerce web application built with React and Vite. The application provides a clean and responsive shopping experience where users can browse products, view product details, manage their shopping cart, and complete the checkout process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project demonstrates modern React development practices, including component-based architecture, client-side routing, state management, asynchronous data fetching, and responsive UI design using Tailwind CSS and DaisyUI.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse products
+- View individual product details
+- Shopping cart management
+- User authentication pages
+- Checkout page
+- Orders page
+- Responsive design
+- Light and dark theme support
+- Client-side routing with React Router
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- React Router v6
+- Redux Toolkit
+- React Query
+- Tailwind CSS
+- DaisyUI
+- Axios
+- React Toastify
+- Day.js
+- React Icons
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Fiza-Code-Tech/SoftNest.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd SoftNest
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Running the Application
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to the local URL displayed in the terminal (typically `http://localhost:5173`).
+
+## Building for Production
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
+
+## License
+
+This project is intended for educational and learning purposes.
+
+If you plan to deploy the project (e.g. to Vercel or Netlify), I can also Add a Deployment section to the README.
